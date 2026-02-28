@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Custom Start Page - Glassmorphism",
+  "version": "2.0",
+  "description": "A beautiful glassmorphism start page with grouped links, theme switching, and comprehensive customization options",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage",
+    "favicon",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "author": "Custom Start Page Team",
+  "homepage_url": "https://github.com/your-username/custom-start-page-extension"
+}

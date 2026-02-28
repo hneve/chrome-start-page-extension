@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start page</title>
+</head>
+<body>
+    <div class="glass-container">
+        <div class="menu-container">
+            <button id="menuToggleBtn" class="menu-toggle-btn">☰</button>
+            <div id="accordionMenu" class="accordion-menu">
+                <button id="addNewBtn" class="menu-item">+ Add Link</button>
+                <button id="addGroupBtn" class="menu-item">G Add Group</button>
+                <button id="colorSettingsBtn" class="menu-item">🎨 Color Settings</button>
+                <button id="themeToggleBtn" class="menu-item">🌙 Dark Mode</button>
+                <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); margin: 0.5rem 0;"></div>
+                <button id="exportBtn" class="menu-item">📤 Export Data</button>
+                <button id="importBtn" class="menu-item">📥 Import Data</button>
+            </div>
+        </div>
+        
+        <div class="groups-container" id="groupsContainer">
+            <!-- Groups will be dynamically added here -->
+        </div>
+        
+        <div id="emptyState" class="empty-state" style="display: none;">
+            <h2>No links yet</h2>
+            <p>Click the menu button to get started.</p>
+        </div>
+    </div>
+    
+    <script src="newtab.js"></script>
+</body>
+</html>
